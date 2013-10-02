@@ -12,7 +12,7 @@ public class PlayerMove : MonoBehaviour {
 	void Update () {
 	if (Input.GetKeyDown(KeyCode.A))
 		{
-			this.transform.position+=new Vector3(0.1f,0.0f,0.0f);
+			this.transform.position+=new Vector3(30.0f*Time.deltaTime,30.0f*Time.deltaTime,30.0f*Time.deltaTime);
 		}
 	}
 }
