@@ -4,6 +4,7 @@ using System.Collections;
 public class WarriorAttack : MonoBehaviour {
 	// Use this for initialization
 	public float timeStamp;
+	
 	void Start () {
 	timeStamp=0.0f;
 	}
