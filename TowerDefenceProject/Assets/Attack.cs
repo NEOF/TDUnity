@@ -1,7 +1,7 @@
 ﻿using UnityEngine;
 using System.Collections;
 
-public class WarriorAttack : MonoBehaviour {
+public class Attack : MonoBehaviour {
 	// Use this for initialization
 	public float timeStamp;
 	

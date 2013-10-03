@@ -32,6 +32,8 @@
 -define:ENABLE_PROFILER
 -define:UNITY_EDITOR
 -define:UNITY_EDITOR_OSX
+'Assets/Arch.cs'
+'Assets/ArcherAttackZone.cs'
 'Assets/GameManager.cs'
 'Assets/Health.cs'
 'Assets/MenuScript.cs'

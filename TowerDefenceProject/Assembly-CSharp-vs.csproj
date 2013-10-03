@@ -44,11 +44,12 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\ArcherAttackZone.cs" />
+     <Compile Include="Assets\Attack.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Health.cs" />
      <Compile Include="Assets\MenuScript.cs" />
      <Compile Include="Assets\PlayerMove.cs" />
-     <Compile Include="Assets\WarriorAttack.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
