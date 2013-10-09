@@ -13,6 +13,7 @@ public class ArcherAttack : MonoBehaviour {
 	void Start () {
 		timeStamp=0.0f;
 		damage= 10;
+		currentTarget=null;
 		twr=this.gameObject.GetComponent("TowerManager") as TowerManager;
 		// Check where the tower is located and assign appropriate attack zone for it.
 		if(twr.isBotLane && twr.isArcher)
@@ -28,7 +29,8 @@ public class ArcherAttack : MonoBehaviour {
 			attackArea = GameObject.Find("ArcherAttackMid");
 		}
 		// getting component from attack zone, so we can get the monster who enterred the zone.
-		enemy=attackArea.gameObject.GetComponent("AttackAreaEnter") as AttackAreaEnter;
+		enemy =attackArea.gameObject.GetComponent("AttackAreaEnter") as AttackAreaEnter;
+		print(enemy);
 	}
 	
 	// Update is called once per frame
@@ -38,16 +40,23 @@ public class ArcherAttack : MonoBehaviour {
 	{
 			Attack();
 	}
-	else 
-	{
+	else
+	{		
 			currentTarget=enemy.getEnemy();
-			hp=currentTarget.GetComponent("Health") as Health;
-	}
+			print (currentTarget);
+			if (currentTarget!=null)
+			{
+				hp= currentTarget.GetComponent("Health") as Health;
+			}
+			else{}
+		}
+		
+	
 	}
 	// method for attacking current target
 	void Attack()
 	{
-		timeStamp=Time.time+2.0f;
+		
 		if (hp.isDead())
 		{
 			Destroy(hp.gameObject);
@@ -56,16 +65,17 @@ public class ArcherAttack : MonoBehaviour {
 		if (timeStamp<Time.time)
 		{
 			hp.getDamage(damage);
+			timeStamp=Time.time+2.0f;
 		}
 		
 	}
 	
 	// getter and setter for damage
-	int getDamage()
+	public int getDamageVal()
 	{
 		return damage;
 	}
-	void setDamage(int dmg)
+	public void setDamageVal(int dmg)
 	{
 		damage=dmg;
 	}

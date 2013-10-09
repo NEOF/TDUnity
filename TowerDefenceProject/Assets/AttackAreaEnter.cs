@@ -5,7 +5,7 @@ public class AttackAreaEnter : MonoBehaviour {
 	 public GameObject enemy;
 	// Use this for initialization
 	void Start () {
-	
+		enemy=null;
 	}
 	
 	// Update is called once per frame
