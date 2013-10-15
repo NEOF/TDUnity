@@ -46,6 +46,7 @@
   <ItemGroup>
      <Compile Include="Assets\ArcherAttack.cs" />
      <Compile Include="Assets\AttackAreaEnter.cs" />
+     <Compile Include="Assets\EnemyMove.cs" />
      <Compile Include="Assets\GameManager.cs" />
      <Compile Include="Assets\Health.cs" />
      <Compile Include="Assets\MenuScript.cs" />
