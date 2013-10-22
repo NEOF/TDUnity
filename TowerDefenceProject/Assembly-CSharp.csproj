@@ -54,6 +54,10 @@
      <Compile Include="Assets\MageEMove.cs" />
      <Compile Include="Assets\MenuScript.cs" />
      <Compile Include="Assets\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\FastForward.cs" />
+     <Compile Include="Assets\Scripts\LvlSelect.cs" />
+     <Compile Include="Assets\Scripts\MenuObject.cs" />
+     <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\TowerManager.cs" />
      <Compile Include="Assets\WarriorAttack.cs" />
   </ItemGroup>
