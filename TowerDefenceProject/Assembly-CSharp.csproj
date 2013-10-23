@@ -44,22 +44,24 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\ArcherAttack.cs" />
-     <Compile Include="Assets\AttackAreaEnter.cs" />
-     <Compile Include="Assets\EMageAtk.cs" />
-     <Compile Include="Assets\EnemyMove.cs" />
-     <Compile Include="Assets\GameManager.cs" />
-     <Compile Include="Assets\Health.cs" />
-     <Compile Include="Assets\Level1Spawn.cs" />
-     <Compile Include="Assets\MageEMove.cs" />
-     <Compile Include="Assets\MenuScript.cs" />
-     <Compile Include="Assets\PlayerMove.cs" />
+     <Compile Include="Assets\1H_Hero_singe_animations\51_1H_Hero@1H_sword_swing_low_left\PlayAnim.cs" />
+     <Compile Include="Assets\Scripts\ArcherAttack.cs" />
+     <Compile Include="Assets\Scripts\AttackAreaEnter.cs" />
+     <Compile Include="Assets\Scripts\EMageAtk.cs" />
+     <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\FastForward.cs" />
+     <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\Health.cs" />
+     <Compile Include="Assets\Scripts\Level1Spawn.cs" />
      <Compile Include="Assets\Scripts\LvlSelect.cs" />
+     <Compile Include="Assets\Scripts\MageEMove.cs" />
      <Compile Include="Assets\Scripts\MenuObject.cs" />
+     <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
-     <Compile Include="Assets\TowerManager.cs" />
-     <Compile Include="Assets\WarriorAttack.cs" />
+     <Compile Include="Assets\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\TowerManager.cs" />
+     <Compile Include="Assets\Scripts\WarriorAttack.cs" />
+     <None Include="Assets\Standard Assets\Shaders\DifSpecTransp.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
