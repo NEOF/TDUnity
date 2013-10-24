@@ -29,7 +29,7 @@ public class EnemyMove : MonoBehaviour {
 		void OnTriggerStay (Collider col){
 		if(col.gameObject.tag == "Tower"){
 			this.canMove = false;
-			Health hp = col.gameObject.GetComponent("Health") as Health;
+			Health hp = col.transform.parent.gameObject.GetComponent("Health") as Health;
 			if (timeStamp<=Time.time)
 			{
 
@@ -41,7 +41,7 @@ public class EnemyMove : MonoBehaviour {
 			}
 			if (hp.isDead())
 			{
-				Destroy(col.gameObject);
+				Destroy(col.transform.parent.gameObject);
 				canMove = true;
 			}
 		}

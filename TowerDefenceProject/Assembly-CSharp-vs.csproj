@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
      <Compile Include="Assets\1H_Hero_singe_animations\51_1H_Hero@1H_sword_swing_low_left\PlayAnim.cs" />
+     <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
+     <Compile Include="Assets\NassacGamesShieldsPack\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\ArcherAttack.cs" />
      <Compile Include="Assets\Scripts\AttackAreaEnter.cs" />
      <Compile Include="Assets\Scripts\EMageAtk.cs" />
@@ -61,7 +63,10 @@
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
      <Compile Include="Assets\Scripts\TowerManager.cs" />
      <Compile Include="Assets\Scripts\WarriorAttack.cs" />
+     <None Include="Assets\Nobiax Free Textures 17\Nobiax Free Textures 17.txt" />
+     <None Include="Assets\NassacGamesShieldsPack\Description.txt" />
      <None Include="Assets\Standard Assets\Shaders\DifSpecTransp.shader" />
+     <None Include="Assets\NassacGamesShieldsPack\Standard Assets\shader\DifBumpSpecTransp.shader" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
