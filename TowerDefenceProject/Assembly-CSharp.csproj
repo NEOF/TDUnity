@@ -48,6 +48,7 @@
      <Compile Include="Assets\Mecanim Warrior Anim Free\Script\PlayGUI.cs" />
      <Compile Include="Assets\NassacGamesShieldsPack\Standard Assets\Character Controllers\Sources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\Scripts\ArcherAttack.cs" />
+     <Compile Include="Assets\Scripts\ArcherEMove.cs" />
      <Compile Include="Assets\Scripts\AttackAreaEnter.cs" />
      <Compile Include="Assets\Scripts\EMageAtk.cs" />
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
@@ -55,6 +56,7 @@
      <Compile Include="Assets\Scripts\GameManager.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Level1Spawn.cs" />
+     <Compile Include="Assets\Scripts\Lvl1 Spawn.cs" />
      <Compile Include="Assets\Scripts\LvlSelect.cs" />
      <Compile Include="Assets\Scripts\MageEMove.cs" />
      <Compile Include="Assets\Scripts\MenuObject.cs" />
