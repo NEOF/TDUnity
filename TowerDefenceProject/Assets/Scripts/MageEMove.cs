@@ -10,6 +10,7 @@ public class MageEMove : MonoBehaviour {
 	// Use this for initialization
 	void Start () {
 	timeStamp = 0.0f;
+		animation.Play ("idle");
 	}
 	
 	// Update is called once per frame
@@ -18,6 +19,7 @@ public class MageEMove : MonoBehaviour {
 	if(canMove == true){
 			Target = GameObject.FindWithTag("Tower").transform;
 			this.transform.position+=new Vector3(-movspd*Time.deltaTime,0.0f,0.0f*Time.deltaTime);
+			animation.Play ("run");
 		}
 	}
 	void OnTriggerEnter (Collider col){
@@ -31,7 +33,9 @@ public class MageEMove : MonoBehaviour {
 			Health hp = col.gameObject.GetComponent ("Health") as Health;
 			if (timeStamp <=Time.time){
 				hp.getHeal (5);
-				timeStamp = Time.time+2.0f;}
+				timeStamp = Time.time+2.0f;
+				animation.Play ("attack");
+			}
 		}
 		if(col.gameObject.tag == "Tower"){
 			this.canMove = false;

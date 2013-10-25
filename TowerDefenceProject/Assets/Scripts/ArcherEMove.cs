@@ -11,6 +11,7 @@ public class ArcherEMove : MonoBehaviour {
 		if(canMove == true){
 		Target = GameObject.FindWithTag("Tower").transform;
 		this.transform.position+=new Vector3(-movspd*Time.deltaTime,0.0f,0.0f*Time.deltaTime);
+			animation.Play ("run");
 		}
 	}
 void OnTriggerStay(Collider col){
@@ -19,6 +20,7 @@ void OnTriggerStay(Collider col){
 			Health hp = col.gameObject.GetComponent("Health") as Health;
 			if (timeStamp<=Time.time)
 			{
+				animation.Play ("attack");
 				GameObject fire = Instantiate(Resources.Load("Arrow")) as GameObject;
 				fire.transform.position = (this.transform.position + new Vector3(-1.0f,0.0f,0.0f));
 				timeStamp = Time.time+2.0f;

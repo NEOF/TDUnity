@@ -68,7 +68,9 @@
      <None Include="Assets\Nobiax Free Textures 17\Nobiax Free Textures 17.txt" />
      <None Include="Assets\Standard Assets\Shaders\DifSpecTransp.shader" />
      <None Include="Assets\NassacGamesShieldsPack\Description.txt" />
+     <None Include="Assets\Enemy Models\SkeletonData\animations.txt" />
      <None Include="Assets\NassacGamesShieldsPack\Standard Assets\shader\DifBumpSpecTransp.shader" />
+     <None Include="Assets\Robot War Tank\readme.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

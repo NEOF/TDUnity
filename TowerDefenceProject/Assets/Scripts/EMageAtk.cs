@@ -14,9 +14,9 @@ public class EMageAtk : MonoBehaviour {
 		Target = GameObject.FindWithTag ("Tower").transform;
 		this.transform.position += new Vector3(-1.0f*spellspeed, 0.0f, 0.0f*Time.deltaTime);
 	}
-	void OnTriggerEnter (Collider col){
+	void OnTriggerStay (Collider col){
 		if(col.gameObject.tag == "Tower"){
-			Health hp = col.gameObject.GetComponent("Health") as Health;
+			Health hp = col.transform.parent.gameObject.GetComponent("Health") as Health;
 			if (timeStamp<=Time.time)
 			{
 				hp.getDamage(Dmg);
