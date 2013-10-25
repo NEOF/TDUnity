@@ -5,6 +5,7 @@ public class WarriorAttack : MonoBehaviour {
 	// Use this for initialization
 	public float timeStamp;
 	public Animator animator;
+	public float damage;
 	GameObject Tower;
 	
 	void Start () {
@@ -25,7 +26,7 @@ public class WarriorAttack : MonoBehaviour {
 			print (animator);
 			if (timeStamp<=Time.time)
 			{
-				hp.getDamage(10);
+				hp.getDamage(damage);
 				timeStamp=Time.time+2.0f;
 				animator.SetBool("Attack",false);		
 			}
