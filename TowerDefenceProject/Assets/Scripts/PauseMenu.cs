@@ -12,6 +12,15 @@ public class PauseMenu : MonoBehaviour {
 	public int currentLevel;
 	//private float previousSpeed = ???;
 	
+	void OnMouseUp() {
+		isPaused = !isPaused;
+		if(isPaused) {
+			Time.timeScale = 0;
+		} else {
+			Time.timeScale = 1;
+		}
+	}
+	
 	void Update() {
 		if(Input.GetKeyDown("p")) {
 			isPaused = !isPaused;
