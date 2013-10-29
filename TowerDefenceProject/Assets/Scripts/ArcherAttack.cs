@@ -30,7 +30,7 @@ public class ArcherAttack : MonoBehaviour {
 		}
 		// getting component from attack zone, so we can get the monster who enterred the zone.
 		enemy =attackArea.gameObject.GetComponent("AttackAreaEnter") as AttackAreaEnter;
-		print(enemy);
+		
 	}
 	
 	// Update is called once per frame
@@ -43,7 +43,6 @@ public class ArcherAttack : MonoBehaviour {
 	else
 	{		
 			currentTarget=enemy.getEnemy();
-			print (currentTarget);
 			if (currentTarget!=null)
 			{
 				hp= currentTarget.GetComponent("Health") as Health;

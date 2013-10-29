@@ -54,6 +54,7 @@
      <Compile Include="Assets\Scripts\EnemyMove.cs" />
      <Compile Include="Assets\Scripts\FastForward.cs" />
      <Compile Include="Assets\Scripts\GameManager.cs" />
+     <Compile Include="Assets\Scripts\GridSystem.cs" />
      <Compile Include="Assets\Scripts\Health.cs" />
      <Compile Include="Assets\Scripts\Level1Spawn.cs" />
      <Compile Include="Assets\Scripts\Lvl1 Spawn.cs" />
@@ -63,6 +64,7 @@
      <Compile Include="Assets\Scripts\MenuScript.cs" />
      <Compile Include="Assets\Scripts\PauseMenu.cs" />
      <Compile Include="Assets\Scripts\PlayerMove.cs" />
+     <Compile Include="Assets\Scripts\TileManager.cs" />
      <Compile Include="Assets\Scripts\TowerManager.cs" />
      <Compile Include="Assets\Scripts\WarriorAttack.cs" />
      <None Include="Assets\Nobiax Free Textures 17\Nobiax Free Textures 17.txt" />

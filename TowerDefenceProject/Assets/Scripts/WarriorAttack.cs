@@ -23,7 +23,6 @@ public class WarriorAttack : MonoBehaviour {
 		{
 			Health hp = other.gameObject.GetComponent("Health") as Health;
 			animator = Tower.GetComponent<Animator>();
-			print (animator);
 			if (timeStamp<=Time.time)
 			{
 				hp.getDamage(damage);
