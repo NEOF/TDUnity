@@ -1,12 +1,8 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/ArcherEMove.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/GridSystem.cs">
     <Files>
-      <File FileName="Assets/Scripts/GridSystem.cs" Line="52" Column="17" />
-      <File FileName="Assets/Scripts/ArcherAttack.cs" Line="48" Column="56" />
-      <File FileName="Assets/Scripts/TileManager.cs" Line="8" Column="18" />
-      <File FileName="Assets/Scripts/Health.cs" Line="1" Column="1" />
-      <File FileName="Assets/Scripts/ArcherEMove.cs" Line="28" Column="7" />
+      <File FileName="Assets/Scripts/GridSystem.cs" Line="70" Column="121" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
