@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿// Samuel P. Tobey
+// LvlSelect.cs
+
+using UnityEngine;
 using System.Collections;
 
 public class LvlSelect : MonoBehaviour 

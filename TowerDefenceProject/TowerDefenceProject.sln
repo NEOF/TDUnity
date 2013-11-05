@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{4F67CA4E-D0D1-6D3F-4A50-97329789E86B}") = "TowerDefenceProject", "Assembly-CSharp.csproj", "{857D4E6E-6D6F-22C5-7104-C8675CD86CF6}"
 EndProject
+Project("{4F67CA4E-D0D1-6D3F-4A50-97329789E86B}") = "TowerDefenceProject", "Assembly-CSharp-Editor.csproj", "{AE017928-70CD-027C-9FD4-C57B40C966BA}"
+EndProject
 Project("{4F67CA4E-D0D1-6D3F-4A50-97329789E86B}") = "TowerDefenceProject", "Assembly-UnityScript.unityproj", "{02B34A99-FA2D-C7A3-7624-9D306D9A79F1}"
 EndProject
 Global
@@ -15,6 +17,10 @@ Global
 		{857D4E6E-6D6F-22C5-7104-C8675CD86CF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{857D4E6E-6D6F-22C5-7104-C8675CD86CF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{857D4E6E-6D6F-22C5-7104-C8675CD86CF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE017928-70CD-027C-9FD4-C57B40C966BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE017928-70CD-027C-9FD4-C57B40C966BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE017928-70CD-027C-9FD4-C57B40C966BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE017928-70CD-027C-9FD4-C57B40C966BA}.Release|Any CPU.Build.0 = Release|Any CPU
 		{02B34A99-FA2D-C7A3-7624-9D306D9A79F1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{02B34A99-FA2D-C7A3-7624-9D306D9A79F1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{02B34A99-FA2D-C7A3-7624-9D306D9A79F1}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -23,7 +29,7 @@ Global
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																											GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																																		GlobalSection(MonoDevelopProperties) = preSolution
 																																GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0

@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿// Samuel P.Tobey
+// FastForward.cs
+
+using UnityEngine;
 using System.Collections;
 
 public class FastForward : MonoBehaviour {
@@ -13,7 +16,7 @@ public class FastForward : MonoBehaviour {
 		}
 	}
 	
-	// Implemented for a button	
+	// Implemented for a button	with a collider
 	void OnMouseDown() {
 		ToggleChange();
 	}

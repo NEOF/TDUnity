@@ -1,4 +1,7 @@
-﻿using UnityEngine;
+﻿// Samuel P. Tobey
+// MenuObject.cs
+
+using UnityEngine;
 using System.Collections;
 
 public class MenuObject : MonoBehaviour
