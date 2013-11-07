@@ -60,15 +60,13 @@ public class GridSystem : MonoBehaviour {
 									{
 										TileManager plot1= field[a,s].gameObject.GetComponent("TileManager") as TileManager;
 										plot1.isActive=false;
-										
 									}
 								}
 								TileManager plot= field[i,j].gameObject.GetComponent("TileManager") as TileManager;
 								plot.isActive=true;
 								if (plot.isTaken==false)
 								{
-									Instantiate (buildMenu,camera.WorldToViewportPoint(plot.gameObject.transform.position+new Vector3(-10.5f,1.5f,-7.5f)),buildMenu.gameObject.transform.rotation);
-									Instantiate(warriorTower,plot.gameObject.transform.position+new Vector3(0.0f,2.5f,0.0f),warriorTower.gameObject.transform.rotation);
+									Instantiate(warriorTower,plot.gameObject.transform.position+new Vector3(0.0f,1.5f,0.0f),warriorTower.gameObject.transform.rotation);
 									plot.isTaken=true;
 								}
 								else 

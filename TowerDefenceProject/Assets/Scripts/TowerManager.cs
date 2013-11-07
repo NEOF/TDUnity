@@ -14,9 +14,9 @@ public class TowerManager : MonoBehaviour {
 	public bool isMage;
 	public bool ismageDmg;
 	public bool isphysDmg;
-	public bool isattackType1;
-	public bool isattackType2;
-	public bool isattackType3;
+	public bool isMode1;
+	public bool isMode2;
+	public bool isMode3;
 	// Use this for initialization
 	void Start () {
 	}
