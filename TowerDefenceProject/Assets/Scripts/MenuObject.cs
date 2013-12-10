@@ -4,7 +4,7 @@ using System.Collections;
 public class MenuObject : MonoBehaviour
 {
 	public bool isQuit = false;
-	public int jumpToLevel = 0;
+	public int jumpToLevel = 1;
 	
 	void OnMouseEnter()
 	{
