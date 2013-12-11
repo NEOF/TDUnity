@@ -16,21 +16,29 @@ public class ArcherAttack : MonoBehaviour {
 		currentTarget=null;
 		twr=this.gameObject.GetComponent("TowerManager") as TowerManager;
 		// Check where the tower is located and assign appropriate attack zone for it.
-		if(twr.isBotLane && twr.isArcher)
+		if(twr.isLine0 && twr.isArcher)
 		{
 			attackArea = GameObject.Find("ArcherAttackBot");
 		}
-		if(twr.isTopLane && twr.isArcher)
+		if(twr.isLine1 && twr.isArcher)
 		{
 			attackArea = GameObject.Find("ArcherAttackTop");
 		}
-		if(twr.isMidLane && twr.isArcher)
+		if(twr.isLine2 && twr.isArcher)
+		{
+			attackArea = GameObject.Find("ArcherAttackMid");
+		}
+		if(twr.isLine3 && twr.isArcher)
+		{
+			attackArea = GameObject.Find("ArcherAttackTop");
+		}
+		if(twr.isLine4 && twr.isArcher)
 		{
 			attackArea = GameObject.Find("ArcherAttackMid");
 		}
 		// getting component from attack zone, so we can get the monster who enterred the zone.
 		enemy =attackArea.gameObject.GetComponent("AttackAreaEnter") as AttackAreaEnter;
-		print(enemy);
+		
 	}
 	
 	// Update is called once per frame
@@ -43,7 +51,6 @@ public class ArcherAttack : MonoBehaviour {
 	else
 	{		
 			currentTarget=enemy.getEnemy();
-			print (currentTarget);
 			if (currentTarget!=null)
 			{
 				hp= currentTarget.GetComponent("Health") as Health;

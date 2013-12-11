@@ -28,8 +28,10 @@ public class EnemyMove : MonoBehaviour {
 		void OnTriggerStay (Collider col){
 		if(col.gameObject.tag == "Tower"){
 			this.canMove = false;
+
 			Health hp = col.transform.parent.gameObject.GetComponent("Health") as Health;
 			Health own = this.gameObject.GetComponent("Health") as Health;
+
 			if(canMove == false){
 				animation.Play ("taunt");
 			}

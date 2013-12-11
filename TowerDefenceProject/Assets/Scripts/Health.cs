@@ -6,6 +6,12 @@ public class Health : MonoBehaviour {
 	public float currentHealth;
 	public float physRes;
 	public float mageRes;
+	public float poisonRes;
+	public float fireRes;
+	public float iceRes;
+	public float natureRes;
+	public float holyRes;
+	public float darkRes;
 	public TowerManager twrMngr;
 	public bool isTower;
 	// Use this for initialization
@@ -24,11 +30,11 @@ public class Health : MonoBehaviour {
 	{
 		if (isTower)
 		{
-		if (twrMngr.physDmg)
+		if (twrMngr.isphysDmg)
 		{
 			currentHealth-=(dmg-physRes*dmg);
 		}
-		else if (twrMngr.mageDmg)
+		else if (twrMngr.ismageDmg)
 		{
 			currentHealth-=(dmg-mageRes*dmg);
 		}
